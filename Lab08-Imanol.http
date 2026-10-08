@@ -1,0 +1,6 @@
+@Lab08_Imanol_HostAddress = http://localhost:5248
+
+GET {{Lab08_Imanol_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
