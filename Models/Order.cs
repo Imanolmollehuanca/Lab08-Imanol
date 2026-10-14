@@ -13,6 +13,6 @@ public partial class Order
 
     public virtual Client Client { get; set; } = null!;
 
-    public virtual ICollection<Orderdetail> Orderdetails { get; set; } = new List<Orderdetail>();
-
-}
+    public virtual ICollection<Orderdetail> Orderdetails { get; set; }
+        = new List<Orderdetail>();
+} 
